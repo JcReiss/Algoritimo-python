@@ -13,15 +13,13 @@ print(novalista, novaspalavras)
 
 
 
-'''
+
 ##* 2 Dada a lista acima, filtre as palavras terminadas em "ar"
 palavras= ["massa", "carro", "correr", "sol", "rir", "corrida", "ousado", "ressaca", "carroça",
            "cor", "muscular", "dor", "asa", "sonar", "assessor", "rua", "massagista", "sentimento",
            "passaporte", "acessoria", "obstáculos", "massagem", "resasaltar", "azul" ]
 novalita=  [x for x in palavras if x.endswith("ar")]
 print (novalita)
-'''
-
 
 
 
