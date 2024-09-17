@@ -7,7 +7,8 @@ palavras= ["massa", "carro", "correr", "sol", "rir", "corrida", "ousado", "ressa
            "passaporte", "acessoria", "obstáculos", "massagem", "resasaltar", "azul" ]
 novaspalavras= [x for x in palavras if "rr" in x]
 novalista= [x for x in palavras if "ss" in x]
-print(novalista, novaspalavras)
+print(novalista)
+print(novaspalavras)
 '''
 
 
@@ -18,8 +19,15 @@ print(novalista, novaspalavras)
 palavras= ["massa", "carro", "correr", "sol", "rir", "corrida", "ousado", "ressaca", "carroça",
            "cor", "muscular", "dor", "asa", "sonar", "assessor", "rua", "massagista", "sentimento",
            "passaporte", "acessoria", "obstáculos", "massagem", "resasaltar", "azul" ]
+<<<<<<< HEAD
+novalista=  [x for x in palavras if x.endswith("ar")]
+print (novalista)
+'''
+
+=======
 novalita=  [x for x in palavras if x.endswith("ar")]
 print (novalita)
+>>>>>>> 3de8b989e20190e0a5e7f1c3471c50a1fa8977ab
 
 
 
@@ -52,7 +60,7 @@ print (novalista)
 
 
 
-##* 5 dada a lista acima, filtre os numeros multiplos de 3, exiba-os na tela, e em seguida exiba esses múltiplos de 3 somados a 5 cafa um
+##* 5 dada a lista acima, filtre os numeros multiplos de 3, exiba-os na tela, e em seguida exiba esses múltiplos de 3 somados a 5 cada um
 '''
 numeros= [9,56,45,59,555,489,723,220,49,87,74,71,51,76,125,265,433]
 novalista = [x for x in numeros if x%3 ==0]
